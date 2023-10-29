@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel='stylesheet' href='style.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Open+Sans:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Ubuntu:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap" rel="stylesheet">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Уроки серфинга</title>
+</head>
+<body>
+    <div class="container">
+        
+        <div class="page_one">
+            <div class="block1">    
+                <div class="img-block1">
+                    <img class="img1" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/0644abf2f5875a5da696ecd1/pexelsphoto417351.jpeg">
+                </div>
+                <div class="h1-block1">
+                    <h1 class="text_1">Уроки серфинга в Legendary Pleasure Point</h1>
+                    <div class="Pre-button-block1"><button class="button-block1">Забронируйте урок сейчас</button></div>
+                </div>
+                <img class="img2" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/50f47f04443d5a9fb68c5c9e/surf5.png">
+            </div>
+        </div>
+        
+        <div class="page_two">
+            <div class="grid_container_1">
+                <div class="item_1">
+                    <h4 class="name_1">Доска для кайтсерфинга Crazyfly Taurin 2014</h4>
+                    <p class="price_1">£299.17</p>
+                </div>
+                <div class="item_2">
+                    <h4 class="name_2">Доска для серфинга Axis Kite - Совершенно новая</h4>
+                    <p class="price_2">£799.00</p>
+                </div>
+                <div class="item_3">
+                    <h4 class="name_3">RRD C.O.T.A.N. Доска для кайтсерфинга 2015</h4>
+                    <p class="price_3">£503.33</p>
+                </div>
+                <div class="item_4">    
+                    <h2 class="name_4"> 20+ лет уроков серфинга</h2>
+                    <p class="price_4">Выберите пункт назначения; Хантингтон-Бич, Калифорния или Носара, Коста-Рика. С 1996 года мы придерживаемся простоты и последовательности, сосредоточившись на методах мышечной памяти и основах коучинга, известных как «девять шагов серфинга».</p>
+                    <div class="Pre-button-block2"><button class="button-block2">Прочитайте больше</button>
+                    </div>
+                    <img class="img3" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/a0cbc0447d445013977f0672/Untitled5.png">
+                </div>
+            </div>
+        </div> 
+       
+    <div class="page_three">    
+        <div class="grid_container_2">
+          <div> <img class="img_grid_2" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/aa5e88668fd35a7194f6f798/8.png"></div>
+          <div> <img class="img_grid_2" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/7b1a0765ad2958f8bd879b8e/9.png"></div>
+          <div> <img class="img_grid_2" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/f2649c9ad8b051429a33203e/11.png"></div>
+          <div> <img class="img_grid_2" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/6aed55293ec7575c93739b6e/12.png"></div>
+          <div> <img class="img_grid_2" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/9133c431e31d58ad9e41143d/10.png"></div>
+          <div> <img class="img_grid_2" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/b6a72425a7765c768dd0bcae/surf4.png"></div>
+      <div id="content-block">
+        <img class="perevernytaya" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/2a21541dfa3a5b2fa72e4733/144365386658ae_362.png">
+        <h2 class="h2-block3">Все инструкторы сертифицированы по СЛР и оказанию первой помощи </h2>
+        <p class="p-block3"> Наши девять индивидуальных принципов или «шагов» были реализованы первым профессиональным серфером Корки Кэрроллом. Трехкратный чемпион США по серфингу и трехкратный международный чемпион по серфингу.</p>      
+        <button class="button-block3">Прочитайте больше</button>       
+      </div>
+            <div> <img class="img_grid_2" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/b6aa8c8ac9f85df586c5c57c/surf3.png"></div>
+            <div> <img class="img_grid_2" src="https://images01.nicepage.io/a1389d7bc73adea1e1c1fb7e/1987e5aae6805824884dcb11/surf2.png"></div>
+       </div>
+    </div>
+    
+    <div class="page_four"> 
+            <div class="text_box1">
+                <h2 class="h2_page_four"> Популярные уроки</h2>
+                <p class="p_page_four"> Покорите волны с кем-то особенным или с семьей на нашем двухчасовом индивидуальном уроке серфинга для двоих. Пользуйтесь безраздельным вниманием вашего инструктора, когда вы изучаете основы и правильные техники, одновременно получая удовольствие! </p>
+            </div>
+        
+            <div class="Klever"> </div>
+            
+            <div class="img_grid_3">
+                <div class="item1_grid3"> </div>
+                <div class="item2_grid3"> </div>
+                <div class="item3_grid3"> </div>   
+            </div>     
+    </div>
+        
+    <div class="page_five">
+        <div class="background_block5"> </div>
+        <div class="img1_block5"> </div>
+        <div class="img2_block5"> </div>
+        <div class="text_box2">
+            <h2 class="h2_page_five"> Summer Surf C усилители</h2>
+            <p class="p_page_five"> Школа AQUA SURF School создает веселые, безопасные и познавательные программы серфинга на пляже для детей и подростков, которые вдохновляют на навыки на всю жизнь, невероятные воспоминания и заветные дружеские отношения.</p>
+            <button class="button-block5">Узнать сейчас</button>
+        </div> 
+    </div>    
+         
+        <div class="page_six">
+            <div class="img_grid_6">
+                <div class="item1_grid6"> </div>
+                <div class="item2_grid6">
+                    <h2 class="h2_page_six"> Испытайте острые ощущения на всю жизнь и научитесь серфить вместе с нами сегодня!</h2>
+                     <p class="p_page_six"> Мы проводим частные уроки серфинга каждый день,
+                    круглый год. Наша команда имеет опыт обучения людей
+                    всех возрастов и способностей. Школа AQUA SURF также
+                    проводит еженедельные летние лагеря по серфингу для детей и подростков, заинтересованных в обучении. как заниматься серфингом.</p>
+                     <br>
+                     <a href="#" class="button-block6">Book a Lesson Now</a>
+                </div>    
+            </div> 
+        </div>
+        
+        <div class="page_seven">
+             <div class="img_grid_7">
+                <div class="item1_grid7"> 
+                     <h2 class="h2_page_seven"> Свяжитесь с нами</h2>
+                     <p class="p_page_seven"> Для наших международных клиентов и вашего удобства вы также можете связаться с нашей командой по:</p>
+                     <br>
+                     <p class="p_page_seven"> Viber (+1 310-902-7737)</p>
+                     <p class="p_page_seven"> WhatsApp (+1 310-902-7737)</p>
+                     <p class="p_page_seven"> Skype "aquasurfschool"</p> 
+                     <p class="p_page_seven"> Каналы социальных сетей</p>  
+                     <div class="SocialNet"> </div>
+                </div>
+                <div class="item2_grid7"> </div>    
+            </div> 
+            <div class="img_last"> </div>
+        </div> 
+    </div> 
+</body>
+</html>     

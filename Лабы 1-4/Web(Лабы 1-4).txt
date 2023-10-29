@@ -1,0 +1,315 @@
+№1)Менюшка с помощью Таблицы:
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Сайт</title>
+</head>
+<body>
+<h1>Путешествие- это передвижение по какой либо территории или акватории с целью их изучения, а также с познавательными, спортивными и другими целями.До XIX века путешествия были одним из основных источников получения сведений о тех или иных странах.Позднее большое значение для расширения знаний о Земле имели путешествия Д. Ливингстона и Г. Стэнли, Н. М. Пржевальского и другие; однако уже Пржевальский называл свои путешествия научными рекогносцировками, так как они могли удовлетворить лишь запросы первичного и общего знакомства с особенностями той или иной территории.</h1>
+<table width=100%>
+<tr>
+<td>
+<h1> <a target="_blank" href="https://travel.yandex.ru/">Заказать билеты</a></h1>
+<h1><p><a target="_blank" href="https://moysite.ru/yandex-puteshestvija">Контакты</a></p></h1>
+<h1><p><a target="_blank" href="https://ria.ru/world/">Новости</a></p></h1>
+</td>
+<td align="center">
+<img src="https://dusterauto.ru/wp-content/uploads/2022/08/tyrist12365487.jpg" alt="Путешествия" width="50%">
+</td>
+<td>
+<h1> <a target="_blank" href="https://travel.yandex.ru/">О нас</a></h1>
+<h1><p><a target="_blank" href="https://moysite.ru/yandex-puteshestvija">Горячая линия</a></p></h1>
+<h1><p><a target="_blank" href="https://ria.ru/world/">Реклама</a></p></h1>
+</td>
+</tr>
+</table>
+</body>
+</html>
+
+
+*КОЗЫРЬ*
+
+HTML-код:
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>ТурАгенство</title>
+<link rel='stylesheet' href="style.css">
+</head>
+<body>
+<div class='header'>
+<div class='nav'>
+<a class='nav-item' target="_blank" href='https://www.coral.ru/main/turkey/'>Главная</a>
+<a class='nav-item' target="_blank" href='https://ria.ru/location_Turkey/'>Новости</a>
+<a class='nav-item' target="_blank" href='https://vk.com/romadis'>Контакты</a>
+<a class='nav-item' target="_blank" href='https://ru.wikipedia.org/wiki/Турция'>О нас</a>
+</div>
+<div class='main'>
+<div class='title'>Незабываемый отпуск в Турции</div>
+<div class = "forma">
+<form action="" method="">
+<input type='text' class='input' placeholder="Введите ваш телефон">
+</form>
+</div>
+<div class='button'>
+<a href='' class='btn' >Заказать обратный звонок!</a>
+</div>
+</div>
+</div>
+</body>
+</html>
+
+CSS-код:
+body{
+margin: 0;
+font-family:monospace;
+}
+.header{
+background-image: url(https://rare-gallery.com/uploads/posts/4552075-landscape-nature-cityscape-bay-twilight-hills-sunset-trees-sea-summer-blue-water-nice-city.jpg);
+background-size:cover;
+height: 100vh;
+}
+.nav-item{
+color:#e0fff8;
+text-decoration: none;
+margin-right: 80px;
+font-size: 40px;
+}
+.nav-item:last-child {
+margin-right: 0;
+}
+.nav-item:hover {
+color: #e06321;
+}
+.nav {
+display: flex;
+justify-content: center;
+padding-top: 34px;
+}
+.title{
+color:white;
+font-size: 80px;
+width:800px;
+text-align: center;
+margin-right: auto;
+margin-left: auto;
+margin-top: 100px;
+}
+.input{
+width: 446px;
+height: 46px;
+font-size: 24px;
+outline: none;
+border: 4px #c7c6c6 solid;
+border-radius: 20px;
+padding-left: 15px;
+}
+.forma{
+text-align: center;
+margin-top: 30px;
+}
+.btn{
+background-color: #1659f0;
+padding: 15px 18px;
+color:#fff;
+text-decoration: none;
+font-size:24px;
+font-weight: 700;
+border: 2px #909191 solid;
+border-radius: 25px;
+}
+.btn:hover{
+background-color: #031f5d;
+}
+.button {
+text-align:center;
+margin-top: 26px;
+width: auto;
+}
+
+№2)Батарейки:
+
+HTML-код:
+<!DOCTYPE html>
+<html>
+<head>
+<link rel='stylesheet' href='style.css'>
+<meta charset="utf-8">
+<title>Батарейка</title>
+</head>
+<body>
+<div class="block">
+<div class="battery red"></div>
+<div class="battery orange"></div>
+<div class="battery yellow"></div>
+<div class="battery green"></div>
+</div>
+</body>
+</html>
+
+CSS-код:
+.block{
+display: flex;
+justify-content: flex-start;
+}
+.battery{
+position: relative;
+width: 210px;
+height: 70px;
+border: 6px solid black;
+border-radius: 15px;
+margin: 20px;
+}
+.battery:after{
+content: '';
+position: absolute;
+width: 10px;
+height: 20px;
+background: #000;
+right: -10px;
+top: 50%;
+transform: translate(0, -50%)
+}
+.red {
+background: linear-gradient(90deg, red 15%, white 25%);
+}
+.orange {
+background: linear-gradient(90deg, orange 35%, white 45%);
+}
+.yellow {
+background: linear-gradient(90deg, #f5e40e 60%, white 70%);
+}
+.green{
+background: linear-gradient(90deg, green 100%, white 100%);
+}
+
+№3)Позиционирование:
+
+HTML-код:
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'>
+        <meta charset="utf-8">
+        <title>Позиционирование</title>
+    </head>
+    
+    <body>
+        <div class="fixed"></div>
+        <div class="white"></div>
+        <div class="black"></div>
+        
+        
+    </body>
+</html> 
+
+CSS-код:
+body{
+    background-color: #ddd512
+}
+
+.white{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    position: relative;
+    top:240px;
+    left:340px;
+    border-radius: 1000px;
+    z-index:2;
+    position: fixed;
+    
+}
+
+.black{
+    width: 300px;
+    height: 300px;
+    background-color: black;
+    position: absolute;
+    top:100px;
+    left:180px;
+    border-radius: 1000px;
+    z-index:1;
+    position: fixed;
+    
+}
+
+.fixed{
+    height: 3000px;
+}
+
+№4)Grid:
+
+HTML-код:
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel='stylesheet' href='style.css'>
+        <meta charset="utf-8">
+        <title>Позиционирование</title>
+    </head>
+    
+    <body>
+        <div class="container"> 
+            <div class= "item item_1"></div>
+            <div class= "item item_2"></div>
+            <div class= "item item_3"></div>
+            <div class= "item item_4"></div>
+            <div class= "item item_5">Сделать ставку</div>
+            <div class= "item item_6"></div>
+        </div>
+        
+    </body>
+</html> 
+
+CSS-код:
+body{
+    background-image: url(https://football-fun-live.com/uploads/15687/posts/1654449885-2-celes-club-p-futbolnoe-pole-oboi-krasivie-2.jpg);
+}
+.item{
+    padding: 5px;  
+}
+.container{
+    display: grid;
+    grid-template-columns:1fr 2fr 1fr;
+    grid-template-rows: 400px 250px 150px;
+    grid-column-gap: 100px;
+    grid-row-gap: 150px;   
+}
+.item_1{
+    background-image: url(https://media.tenor.com/wGxxpQU-fTcAAAAd/football.gif);
+    background-size: cover;
+}
+.item_2{
+    background-image: url(https://i.ytimg.com/vi/nPd1K7l9Fug/maxresdefault.jpg);
+    background-size: cover;
+}
+.item_3{
+    background-image: url(https://media.tenor.com/4tdgVCWep1IAAAAd/regele-fotbalului-regele.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.item_4{
+     background-image: url( https://bookmaker-ratings.ru/wp-content/uploads/2017/02/psg_wallpaper_saison_2015_2016_by_wallisso-d955145.jpg);
+    background-size:cover;
+    opacity: 0.8;
+}
+.item_5{ 
+    font-family: monospace;
+    font-size:50px;
+    font-weight:900;
+    text-align: center;
+    color: red;
+    background-image: url(https://media.tenor.com/QZ4fRhG7wO8AAAAC/robertidk-um.gif);
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.item_6{
+     background-image: url(https://wallpaperbat.com/img/439668-wallpaper-barca.jpg);
+    background-size:cover;
+    opacity: 0.8;
+	 
+
